@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Miss or Match</title>
+    <script src = "script.js" async></script>
+</head>
+<body>
+    <!-- <audio autoplay loop>
+        <source src="assets/StartSound.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio> -->
+    <h1 class="title">Miss-Or-Match</h1>
+    <div class="overlay-text visible">Click to Start</div>
+    <div id = "game-over" class="overlay-text">GAME OVER<span class="restart">Click to Restart</span></div>
+    <div id = "res" class="overlay-text">Victory<span class="restart">Click to Restart</span></div>
+    <div class="game-container">
+        <div class="game-info-container">
+           <div class = "game-info" id="timer">Time <span id="remtime">100</span></div>
+           <div class = "game-info" id="flip">Flips <span id="flips">0</span></div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class = "spider" src = "assets/spider.png" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class = "fb card-value icon" src = "assets/facebook.png" alt="">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class = "spider " src = "assets/spider.png" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class = "inst card-value icon" src = "assets/instagram.png" alt="">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class = "spider" src = "assets/spider.png" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class = "link card-value icon" src = "assets/linkedin.png" alt="">
+            </div>
+        </div>
+        <div class="card ">
+            <div class="card-back card-face">
+                <img class = "spider" src = "assets/spider.png" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class = "snap card-value icon" src = "assets/snapchat.png" alt="">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class = "spider " src = "assets/spider.png" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class = "tik card-value icon" src = "assets/tik-tok.png" alt="">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class = "spider" src = "assets/spider.png" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class = "tweet card-value icon" src = "assets/twitter.png" alt="">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class = "spider" src = "assets/spider.png" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class = "whts card-value icon" src = "assets/whatsapp.png" alt="">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class = "spider" src = "assets/spider.png" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class = "youtube card-value icon" src = "assets/youtube.png" alt="">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class = "spider" src = "assets/spider.png" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class = "snap card-value icon" src = "assets/snapchat.png" alt="">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class = "spider" src = "assets/spider.png" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class = "tweet card-value icon" src = "assets/twitter.png" alt="">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class = "spider" src = "assets/spider.png" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class = "tik card-value icon" src = "assets/tik-tok.png" alt="">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class = "spider" src = "assets/spider.png" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class = "youtube card-value icon" src = "assets/youtube.png" alt="">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class = "spider" src = "assets/spider.png" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class = "link card-value icon" src = "assets/linkedin.png" alt="">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class = "spider" src = "assets/spider.png" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class = "whts card-value icon" src = "assets/whatsapp.png" alt="">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class = "spider" src = "assets/spider.png" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class = "fb card-value icon" src = "assets/facebook.png" alt="">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class = "spider" src = "assets/spider.png" alt="">
+            </div>
+            <div class="card-front card-face">
+                <img class = "inst card-value icon" src = "assets/instagram.png" alt="">
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>
